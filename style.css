@@ -137,13 +137,17 @@ header li a:hover{
 }
 
 /* Section 4 */
+#sct4-hmpg{
+    overflow: hidden;
+}
+
 #sct4-hmpg .card{
     display:flex;
     width: 100%;
     margin: 20px 0;
     line-height: 1.5;
     text-align: left;
-    padding-left: 250px;
+    padding-left: 200px;
     padding-top:30px;
     padding-bottom: 20px;
 }
@@ -178,3 +182,28 @@ header li a:hover{
     font-style: italic;
 }
 
+/* Footer */
+footer{
+    background: rgb(202, 202, 202);
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100px;
+    padding-right: 170px;
+}
+
+footer p{
+    padding-top: 18px;
+    font-size: 1rem;
+    padding-left: 300px;
+}
+
+footer figure{
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
