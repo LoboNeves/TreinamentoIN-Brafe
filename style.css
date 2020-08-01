@@ -12,6 +12,11 @@ header{
     padding-right: 170px;
 }
 
+header nav img{
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
 header nav{
     display: flex;
     justify-content: space-between;
@@ -22,7 +27,16 @@ header ul{
     align-items: center;
 }
 
-header li{
-    padding:20px 20px;
+header li a{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    color: var(--primary-white);
 }
 
+header li a:hover{
+    text-decoration-color: #fafafa;
+    transition: 1s;
+}
