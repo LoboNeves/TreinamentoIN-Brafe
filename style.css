@@ -5,5 +5,24 @@
 
 header{
     background: rgb(29, 27, 27);
-    color: white
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 70px;
+    padding-right: 170px;
 }
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header li{
+    padding:20px 20px;
+}
+
