@@ -73,3 +73,16 @@ header li a:hover{
 }
 
 /* Section 2*/
+#sct2-hmpg{
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+#sct2-hmpg h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
