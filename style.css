@@ -155,3 +155,26 @@ header li a:hover{
 #sct4-hmpg p{
     padding-left: 20px;
 }
+
+/* Section 5 */
+#sct5-hmpg{
+    background: rgb(219, 218, 213);
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100px;
+    padding-right: 170px;
+}
+
+#sct5-hmpg h1{
+    padding-top: 10px;
+    font-size: 2.4rem;
+    padding-left: 300px;
+}
+
+#sct5-hmpg h2{
+    font-size: 1.8rem;
+    padding-left: 300px;
+    font-style: italic;
+}
+
