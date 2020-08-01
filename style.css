@@ -159,6 +159,15 @@ header li a:hover{
     background-color: #eda358;
 }
 
+.Nomes{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 #sct3-hmpg h3{
     position: relative;
     text-align: center;
