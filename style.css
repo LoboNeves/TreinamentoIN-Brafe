@@ -136,5 +136,22 @@ header li a:hover{
     margin-top: 75px;
 }
 
-#sct3-hmpg h3 a{
+/* Section 4 */
+#sct4-hmpg .card{
+    display:flex;
+    width: 100%;
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 250px;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+#sct4-hmpg h3{
+    font-size: 2.4rem;
+    padding-left: 20px;
+}
+
+#sct4-hmpg p{
+    padding-left: 20px;
 }
