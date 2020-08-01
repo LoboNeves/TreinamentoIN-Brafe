@@ -47,6 +47,7 @@ header li a:hover{
     position: relative;
     text-align: center;
     color: white;
+    margin: 0 auto;
 }
 
 .centered {
@@ -118,6 +119,14 @@ header li a:hover{
     margin-top: 25px;
 }
 
+.circle:hover{
+    animation: grow 1s;
+}
+@keyframes grow{
+    0% {border-radius: 50%;}
+    100% {border-radius: 30%}
+
+}
 .circle:nth-child(1){
     background-color: #80391e;
 }
