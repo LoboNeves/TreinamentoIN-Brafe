@@ -1,8 +1,9 @@
-/*Geral*/
+/* Geral */
 :root{
     font-family: Georgia, serif;
 }
 
+/* Header */
 header{
     background: rgb(29, 27, 27);
     color: white;
@@ -40,3 +41,35 @@ header li a:hover{
     text-decoration-color: #fafafa;
     transition: 1s;
 }
+
+/* Section 1 */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#sct1-hmpg h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    margin-top: -140px;
+}
+
+#sct1-hmpg h2{
+    font-size: 1.8rem;
+    margin-top: 160px
+}
+
+#sct1-hmpg p{
+    font-size: 6rem;
+    margin-top: 20px
+}
+
+/* Section 2*/
