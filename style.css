@@ -15,7 +15,7 @@ header{
 
 header nav img{
     height: 40px;
-    padding-left: 15px;
+    padding-left: 100px;
     padding-top: 5px;
 }
 header nav{
@@ -78,6 +78,10 @@ header li a:hover{
     box-sizing: border-box;
 }
 
+#sct2-hmpg img{
+    padding: 5px;
+}
+
 #sct2-hmpg h1{
     font-size: 2rem;
     margin-bottom: 20px;
@@ -86,3 +90,12 @@ header li a:hover{
     margin-bottom: 25px;
 }
 
+#sct2-hmpg h2{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Section 3 */
