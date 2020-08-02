@@ -11,6 +11,10 @@ header{
     padding: 10px;
     height: 70px;
     padding-right: 170px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 header nav img{
@@ -89,6 +93,13 @@ header li a:hover{
     color: black;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+#sct2-hmpg .captions{
+    font-size: 1.5rem;
+    color: black;
+    justify-content: space-around;
+    display: flex;
 }
 
 #sct2-hmpg h2{
