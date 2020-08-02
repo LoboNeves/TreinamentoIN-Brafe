@@ -5,7 +5,7 @@
 
 /* Header */
 header{
-    background: rgb(29, 27, 27);
+    background: #202020;
     color: white;
     box-sizing: border-box;
     padding: 10px;
@@ -84,7 +84,8 @@ header li a:hover{
 }
 
 #sct2-hmpg img{
-    padding: 5px;
+    padding-left:2.5px;
+    padding-right:2.5px;
 }
 
 #sct2-hmpg h1{
@@ -98,8 +99,18 @@ header li a:hover{
 #sct2-hmpg .captions{
     font-size: 1.5rem;
     color: black;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
+}
+
+#sct2-hmpg figcaption{
+    display:inline-block;
+    border: 2px solid #202020;
+    width: 458px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fafafa;
+    background-color: #202020;
 }
 
 #sct2-hmpg h2{
@@ -112,7 +123,7 @@ header li a:hover{
 
 /* Section 3 */
 #sct3-hmpg{
-    background: rgb(206, 175, 150);
+    background: #e9e5d9;
     box-sizing: border-box;
     padding-bottom: 60px;
 }
@@ -146,29 +157,29 @@ header li a:hover{
 
 @keyframes grow1{
     0% {border:5px solid white;}
-    100% {border:5px solid #80391e;}
+    100% {border:5px solid #512400;}
 }
 
 @keyframes grow2{
     0% {border:5px solid white;}
-    100% {border:5px solid #ef732b;}
+    100% {border:5px solid #d97232;}
 }
 
 @keyframes grow3{
     0% {border:5px solid white;}
-    100% {border:5px solid #eda358;}
+    100% {border:5px solid #e8a744;}
 }
 
 .circle:nth-child(1){
-    background-color: #80391e;
+    background-color: #512400;
 }
 
 .circle:nth-child(2){
-    background-color: #ef732b;
+    background-color: #d97232;
 }
 
 .circle:nth-child(3){
-    background-color: #eda358;
+    background-color: #e8a744;
 }
 
 .Nomes{
@@ -245,7 +256,7 @@ header li a:hover{
 
 /* Section 5 */
 #sct5-hmpg{
-    background: rgb(219, 218, 213);
+    background: #e9e5d9;
     color: black;
     box-sizing: border-box;
     padding: 10px;
@@ -267,7 +278,7 @@ header li a:hover{
 
 /* Footer */
 footer{
-    background: rgb(202, 202, 202);
+    background: #d8d4c9;
     color: black;
     box-sizing: border-box;
     padding: 10px;
