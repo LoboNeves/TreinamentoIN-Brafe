@@ -1,0 +1,1 @@
+Sendo minha primeira experiência com CSS está longe da perfeição, sendo o maior defeito a versão do responsivo menor, mas fiz o máximo que pude para ficar o mais próximo do exemplo e dos requisitos pedidos, espero que gostem e que eu possa vir a me aperfeiçoar com o tempo e a experiência.
